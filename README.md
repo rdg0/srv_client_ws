@@ -34,15 +34,15 @@ sort_order - порядок сортировки по выбранному ст�
 
 ```
 {
-    "labels": ["label_0", "label_1", "label_m"],
+    "labels": ["label_0", "label_1" ... "label_m"],
     "rows": {
-        "id_0": ["val_0", "val_1", "val_m"],
-        "id_1": ["val_0", "val_1", "val_m"],
+        "id_0": ["val_0", "val_1" ... "val_m"],
+        "id_1": ["val_0", "val_1" ... "val_m"],
         ...
-        "id_n": ["val_0", "val_1", "val_m"]
+        "id_n": ["val_0", "val_1" ... "val_m"]
     }
     "page": "0",
-    "total_rows": "1 000 0000"
+    "total_rows": "1000000"
 }
 ```
 labels - заголовки столбцов;  
